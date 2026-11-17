@@ -10,11 +10,48 @@ everything as plain text files that only you can see.
 
 ## Download
 
-Go to **[Releases](../../releases/latest)** and download `you-setup-x.y.z.exe` (Windows 10 or 11).
+Go to **[Releases](../../releases/latest)** and download **`you-setup-x.y.z.exe`** (Windows 10 or 11).
 Double-click it and follow the steps. No account and no internet needed to use it.
 
-> Windows may show "Windows protected your PC" because the installer isn't code-signed yet.
-> Choose **More info**, then **Run anyway**.
+### Windows shows a warning? That's expected
+
+You is new and its installer isn't code-signed yet (that costs money, and it's on the list). So
+Windows and your browser may be careful with it. This doesn't mean anything is wrong. Here's how to
+go ahead:
+
+**1. Your browser says it's "not commonly downloaded" or blocks it**
+- **Edge:** open the downloads list, click the **`...`** next to the file, choose **Keep**, then
+  **Show more** and **Keep anyway**.
+- **Chrome:** click the **`^`** next to the file, choose **Keep**.
+
+**2. Windows says "Windows protected your PC" (SmartScreen)**
+1. Click **More info**.
+2. Click **Run anyway**.
+
+**3. The file won't open at all (it says it's blocked)**
+1. Right-click the downloaded `.exe` and choose **Properties**.
+2. At the bottom of the General tab, tick **Unblock**, then **OK**.
+3. Open it again.
+
+**4. Windows says "Smart App Control blocked this app"**
+
+Smart App Control is stricter and doesn't offer *Run anyway*. You can use the
+**`you-windows.zip`** download instead: unzip it and open `you\you.exe`. If that is blocked too, the
+only way is to turn Smart App Control off (**Windows Security > App & browser control > Smart App
+Control settings**). It can't be turned back on without resetting Windows, so only do this if you're
+comfortable with that.
+
+### Want to be sure it's the real file?
+
+Each release lists a fingerprint (SHA-256) next to the installer. To check yours, open
+**PowerShell** in the folder with the download and run:
+
+```
+Get-FileHash .\you-setup-1.0.0.exe -Algorithm SHA256
+```
+
+The long code it prints must match the one shown for that file on the Releases page. If it doesn't,
+don't open it.
 
 ## What you get
 
