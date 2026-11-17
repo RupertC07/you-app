@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="5.0 17.0 296.0 96.0" width="296" height="96" role="img" aria-label="You">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#c4b5ff"/><stop offset="1" stop-color="#ffb88a"/></linearGradient></defs>
+
+<path d="M14.0 104.0 L62.0 104.0" fill="none" stroke="#ffb88a" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M84.0 26.0 L108.0 58.0 L132.0 26.0" fill="none" stroke="url(#g)" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M108.0 58.0 L108.0 90.0" fill="none" stroke="url(#g)" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M194.0 68.0 L193.8 70.9 L193.3 73.7 L192.3 76.4 L191.1 79.0 L189.5 81.4 L187.6 83.6 L185.4 85.5 L183.0 87.1 L180.4 88.3 L177.7 89.3 L174.9 89.8 L172.0 90.0 L169.1 89.8 L166.3 89.3 L163.6 88.3 L161.0 87.1 L158.6 85.5 L156.4 83.6 L154.5 81.4 L152.9 79.0 L151.7 76.4 L150.7 73.7 L150.2 70.9 L150.0 68.0 L150.2 65.1 L150.7 62.3 L151.7 59.6 L152.9 57.0 L154.5 54.6 L156.4 52.4 L158.6 50.5 L161.0 48.9 L163.6 47.7 L166.3 46.7 L169.1 46.2 L172.0 46.0 L174.9 46.2 L177.7 46.7 L180.4 47.7 L183.0 48.9 L185.4 50.5 L187.6 52.4 L189.5 54.6 L191.1 57.0 L192.3 59.6 L193.3 62.3 L193.8 65.1 L194.0 68.0" fill="none" stroke="url(#g)" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M214.0 46.0 L214.0 68.0 L214.2 70.9 L214.7 73.7 L215.7 76.4 L216.9 79.0 L218.5 81.4 L220.4 83.6 L222.6 85.5 L225.0 87.1 L227.6 88.3 L230.3 89.3 L233.1 89.8 L236.0 90.0 L238.9 89.8 L241.7 89.3 L244.4 88.3 L247.0 87.1 L249.4 85.5 L251.6 83.6 L253.5 81.4 L255.1 79.0 L256.3 76.4 L257.3 73.7 L257.8 70.9 L258.0 68.0 L258.0 46.0" fill="none" stroke="url(#g)" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M258.0 68.0 L258.0 90.0" fill="none" stroke="url(#g)" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="292.0" cy="86.0" r="8.7" fill="#ffb88a"/>
+</svg>
